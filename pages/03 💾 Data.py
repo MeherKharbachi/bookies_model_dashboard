@@ -8,7 +8,7 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 
-st.markdown("# Our Data")
+st.title("💾 Our Data")
 
 
 def sidebar_multiselect_container(massage, arr, key):

@@ -10,7 +10,13 @@ st.write("""#""")
 st.write("##### In this project, we will use the concept of knowledge distillation to steal the model established by sports betting bookies.")
 st.write("##### In this way, the learner will identify patterns through the probabilities of the provided markets such as 1X2, Asian Handicap, and Over/Under which will lead our model to replicate the original model and use it as a benchmark in future projects.")
 
+
 st.write("""# \n ##""")
+
+img = Image.open("pages/images/Knowledge Distillation Flow Chart.jpg")
+st.image(img, width=1000)
+st.write("""# \n ##""")
+
 
 ## what is KD section
 st.subheader(
@@ -27,16 +33,11 @@ st.write(''' - **Knowledge Transfer:** Knowledge distillation is a technique whe
         ''')
 
 st.latex(r'''
-         Loss = \alpha \times Hard\_Target\_Loss +  (1-\alpha) \times Soft\_Target\_Loss
+         Loss = (1-\alpha) \times Hard\_Target\_Loss +  \alpha \times Soft\_Target\_Loss
     ''')
 
-
-## Image section
-st.write('# \n #')
-img = Image.open("pages/images/kd_graph.png")
-st.image(img, width=1000)
-st.write('# \n #')
-
+st.write("""# \n ##""")
+st.write("""# \n ##""")
 
 ## Github Link section
 st.subheader(
@@ -44,3 +45,4 @@ st.subheader(
 st.subheader("""
 🔗 :blue[github.com/real-analytics-rd/bookies_model]"""
 )
+

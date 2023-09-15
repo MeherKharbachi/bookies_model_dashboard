@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 
-col1, col2 = st.columns([6,5])
+col1, col2 = st.columns([9,5])
 
 with col1:
 
@@ -14,20 +14,13 @@ with col1:
     st.write('#')
     st.write('#')
     st.write('#')
-    st.markdown('''# Knowledge Distillation''')
+    st.markdown('''# Steal The Bookies''')
     st.markdown('''# 🍯😊⛏️🐍🔥🧮''')
 
     st.write('#')
 
-    st.markdown('''## Bookies Model''')
+    st.markdown('''## How Can We Learn Bookmakers Model From The Main Markets Using Machine Learning ?''')
 
 with col2:
-    st.write('#')
-    st.write('#')
-    st.write('#')
-    st.write('#')
-    st.write('#')
-    st.write('#')
-    st.write('#')
-    image = Image.open("pages/images/RA.png")
-    st.image(image, width = 500)
+    image = Image.open("pages/images/stealing-front.png")
+    st.image(image, width = 600)
